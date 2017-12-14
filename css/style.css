@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #333;
+    padding: 24px;
+    margin: 15px;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #333;    
+    padding: 18px;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 2em;
+    padding: 0 15px;
+}
+.home {
+    position: relative;
+    top: 0px;
+    float: left;
+    width: 150px;
+    z-index: 9;
+}
+.nav-link {
+    font-size: 12px;
+    padding: 30px;
+}
+.img-block {
+    display: block;
+    width: 100%;
+}
+.lg-top-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 15px 0; 
+    color: #fff;
+}
+.sm-top-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400; 
+    padding: 15px 0;  
+    color: #fff;
+}
+
+.green {
+    color: #7ED321;
+}
+.pad-50 {
+    padding-top: 50px;
+}
+.pad-50b {
+    padding-bottom: 50px;
+}
+.padding-off {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+.padding-15 {
+    padding: 15px 0;
+}
+.bg-dark {
+    background-color: #333333 !important;
+    color: #fff;
+}
+.center-block {
+    margin: 0 auto;
+    float: none !important;
+    text-align: center;
+}
+.wt {
+    color: #fff;
+}
+.h1-weight {
+    font-family: 'Montserrat', sans-serif;    
+    font-weight: 900;
+}
+.btn-2 {
+    width: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small devices (tablets, 768px and up) */
+@media screen and (min-width: 768px){ 
+nav {
+    height: 60px;
+}    
+h1 {
+    font-size: 36px;
+    padding: 24px;
+    margin: 15px;
+}
+h2 {
+    font-size: 24px;
+    padding: 18px;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 2em;
+    padding: 0 15px;
+}
+.lg-top-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+}
+.sm-top-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+}
+@media (min-width: 1200px) {
+
+}
+/*Large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) {
+
+}
